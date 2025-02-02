@@ -8,7 +8,6 @@
 /* Global Changes */
 body {
   font-family: var(--principalFont);
-  background-color: var(--secondary-color);
 }
 .App {
   display: flex;
