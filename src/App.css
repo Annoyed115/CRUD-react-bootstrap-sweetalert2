@@ -1,12 +1,14 @@
 /* Global Styles */
 *:root {
   --primary-color: #007bff;
-  --fuentePrincipal: 'Fira Sans', sans-serif;
+  --secondary-color: #303633;
+  --principalFont: 'Fira Sans', sans-serif;
 }
 
 /* Global Changes */
 body {
-  font-family: var(--fuentePrincipal);
+  font-family: var(--principalFont);
+  background-color: var(--secondary-color);
 }
 .App {
   display: flex;
@@ -42,3 +44,6 @@ body {
 .card {
   margin-bottom: 60px;
  }
+.container {
+ margin-top: 30px;
+}
